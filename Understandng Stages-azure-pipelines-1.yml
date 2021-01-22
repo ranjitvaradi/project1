@@ -16,28 +16,34 @@ stages:
     steps:
     - bash: echo buld frst job
   - job: second job
+    steps:
     - bash: echo build second job
 
-- stage: Dev Deploy
+- stage: Buld
   jobs:
   - job: First Job
     steps:
     - bash: echo buld frst job
   - job: second job
+    steps:
     - bash: echo build second job
 
-- stage: qa Deploy
+
+- stage: Buld
   jobs:
   - job: First Job
     steps:
     - bash: echo buld frst job
   - job: second job
+    steps:
     - bash: echo build second job
 
-- stage: prod Deploy
+
+- stage: Buld
   jobs:
   - job: First Job
     steps:
     - bash: echo buld frst job
   - job: second job
+    steps:
     - bash: echo build second job
