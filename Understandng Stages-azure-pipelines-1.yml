@@ -19,7 +19,7 @@ stages:
     steps:
     - bash: echo build second job
 
-- stage: Buld
+- stage: Dev Buld
   jobs:
   - job: First Job
     steps:
@@ -29,7 +29,7 @@ stages:
     - bash: echo build second job
 
 
-- stage: Buld
+- stage: QA Buld
   jobs:
   - job: First Job
     steps:
@@ -39,7 +39,7 @@ stages:
     - bash: echo build second job
 
 
-- stage: Buld
+- stage: Prod Buld
   jobs:
   - job: First Job
     steps:
