@@ -12,38 +12,38 @@ pool:
 stages: 
 - stage: Buld
   jobs:
-  - job: First Job
+  - job: FirstJob
     steps:
     - bash: echo buld frst job
-  - job: second job
+  - job: secondob
     steps:
     - bash: echo build second job
 
-- stage: Dev Buld
+- stage: DevBuld
   jobs:
-  - job: First Job
+  - job: Firstob
     steps:
     - bash: echo buld frst job
-  - job: second job
-    steps:
-    - bash: echo build second job
-
-
-- stage: QA Buld
-  jobs:
-  - job: First Job
-    steps:
-    - bash: echo buld frst job
-  - job: second job
+  - job: secondjob
     steps:
     - bash: echo build second job
 
 
-- stage: Prod Buld
+- stage: QABuld
   jobs:
-  - job: First Job
+  - job: FirstJob
     steps:
     - bash: echo buld frst job
-  - job: second job
+  - job: secondjob
+    steps:
+    - bash: echo build second job
+
+
+- stage: ProdBuld
+  jobs:
+  - job: FirstJob
+    steps:
+    - bash: echo buld frst job
+  - job: secondjob
     steps:
     - bash: echo build second job
